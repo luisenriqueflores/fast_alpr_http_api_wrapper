@@ -1,5 +1,5 @@
 # fast_alpr_http_api_wrapper
-A simple wrapper for  fast_alpr 
+A simple wrapper for  fast_alpr https://github.com/ankandrew/fast-alpr/blob/master/README.md?plain=1
 
 # Build the project
 ```docker build -t fast_alpr https://github.com/luisenriqueflores/fast_alpr_http_api_wrapper.git```
