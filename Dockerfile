@@ -7,6 +7,8 @@ WORKDIR /app
 # Copy only the requirements file first (for efficient caching)
 COPY requirements.txt .
 
+RUN apt-get update && apt-get install -y python3-opencv
+
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
