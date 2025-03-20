@@ -27,7 +27,7 @@ async def extract_name_from_id(upload: UploadFile = File(...)):
         img.save(out_image_path)
 
         alpr_results = alpr.predict(out_image_path)
-     #   os.remove(out_image_path)
+        os.remove(out_image_path)
         print(alpr_results)
         return {"Data": alpr_results}
     except Exception as e:
