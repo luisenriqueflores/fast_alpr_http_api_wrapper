@@ -1,3 +1,4 @@
+from fastapi import FastAPI, File, UploadFile
 from PIL import Image
 from fast_alpr import ALPR
 import io
